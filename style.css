@@ -1,0 +1,19 @@
+html{
+    min-height: 100%;
+}
+body{
+    background: linear-gradient(to left bottom,yellow, red);
+}
+ .container{
+    width: 700px;    
+}
+.container-card{
+    justify-content: center;
+    margin-left:200px;
+}
+.footer{
+    justify-content: center;
+} 
+.card:hover{
+    transform: rotateX(8deg) scale(1) translateY(20px);
+}
